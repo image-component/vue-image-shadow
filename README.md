@@ -1,108 +1,47 @@
-# 🌈 vue-component-template
+# 🌈 vue-image-shadow
 
-A template for rapid development of vue2 components to satisfy component development, packaging, release, document development, document packaging, and document deployment.
+A Vue image component. Simple realization of image shadow.
 
-English | [简体中文](./README.zh-CN.md)
+[![npm](https://img.shields.io/npm/v/vue-image-shadow?style=flat-square&color=orange)](https://www.npmjs.com/package/vue-image-shadow)  ![](https://github.com/image-tool/vue-image-shadow/workflows/ci/badge.svg) ![](https://img.shields.io/github/last-commit/image-tool/vue-image-shadow/main?color=%23722ed1&style=flat-square) ![](https://img.shields.io/npm/dt/vue-image-shadow?color=%23eb2f96&style=flat-square) ![](https://img.shields.io/npm/l/vue-image-shadow?style=flat-square&color=red)
 
-## 💖 How to use?
+## 📚 Example
 
-![](./assets/1.png)
+Online: https://image-tool.github.io/vue-image-shadow/
 
-## 💎 Catalog Introduction
-
-```
-├── assets                 Store fixed resources
-├── docs                   Component documentation
-│   ├── .vuepress          VuePress
-│   │   ├── components     Demo use
-│   │   ├── config.js      VuePress main configuration
-│   │   └── enhanceApp.js  VuePress expand configuration
-│   ├── README.md          Used to show component introduction
-│   ├── changelog.md       Used to display component history
-│   └── demo.md            Used to display component Demo
-├── examples               Component development and debugging
-├── public                 Component development and debugging display
-├── src                    Component home directory
-│   ├── index.js           Component registration
-│   └── template.vue       Component implementation code
-└── vue.config.js          Component development package configuration
-```
-
-## 🤖 Command introduction
-
-| Name | Description | Remarks |
-| -- | -- | -- |
-| `npm run start` | Start component development | - |
-| `npm run build` | Component packaging | - |
-| `npm publish` | Component release | Recommended for first removal prepublishOnly |
-| `npm run docs:start` | Document start | - |
-| `npm run docs:build` | Document packaging | - |
-| `npm run docs:deploy` | Document release | The default is to use GitHub Pages |
-| `npm run deploy` | Document package and release | - |
-
-## 🍭 Component
-
-### Development
+## 📦 Install
 
 ```bash
-npm i
-npm run start
-# http://localhost:8080/
+npm i vue-image-shadow
+# or
+yarn add vue-image-shadow
 ```
 
-### Unpack
+## 🎉 Usage
+
+```js
+// main.js
+import ImageShadow from 'vue-image-shadow'
+Vue.component('image-shadow', ImageShadow)
+```
+
+## 📔 API
+
+| Property     | Description                         | Type          | Required | Default |
+| ------------ | ----------------------------------- | ------------- | -------- | ------- |
+| className    | Component extra class.              | string        | ✖        | -       |
+| shadowBlur   | The shadow blur of the image.       | number        | ✖        | 20      |
+| shadowHover  | Whether to support the mouse hover. | boolean       | ✖        | false   |
+| shadowRadius | The border radius of the image.     | number        | ✖        | 8       |
+| src          | The src of the image.               | string        | ✔        | -       |
+| width        | The width of the image.             | number        | ✖        | 300     |
+
+## 🔨 Development
 
 ```bash
-npm run build
+yarn
+yarn start
 ```
-
-- Remove map by default
-- Do not pull independent CSS files by default
-- More view official website configuration
-- The package file is generated in the dist file by default
-
-### Release
-
-> `package.json` introduction
-
-1. If you want to publish npm, `private` needs to be set to `false`.
-2. The build command can be modified according to actual conditions.
-3. After main decides to install the component, import points to it.
-4. files Contains the files at the time of publishing, and includes README.md by default.
-5. Others can be understood according to the meaning of the word.
-
-## 📚 Documentation
-
-### Start
-
-```bash
-npm run docs:start
-# http://localhost:8888/
-```
-
-### Online preview
-
-https://one-template.github.io/vue-component-template/
-
-### Description
-
-- Use VuePress
-- Use basic layout, please add more by yourself
-- Component references, currently need to be copied to components, if there is a better way, please PR
-- Because the document is deployed on GitHub Pages, the `base` of `config.js` is set to the project name
-- Update the `highlight.js` version carefully
-- One 🌰 : [Knotes](https://github.com/xrkffgg/Knotes)
-
-## 🎈 Aide
-
-- [Issue template](https://github.com/one-template/issue-template)
-- [PR template](https://github.com/one-template/pr-template)
-- [Actions use](https://github.com/github-actions-workflows/.github)
-
-## 🎉 Who are using？
-
-- 
 
 ## License
 
-[MIT](https://github.com/one-template/vue-component-template/blob/main/LICENSE)
+[MIT](https://github.com/image-tool/vue-image-shadow/blob/main/LICENSE)

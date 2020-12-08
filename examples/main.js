@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import ComponentTemplate from '../src'
-Vue.component('component-template', ComponentTemplate)
+import ImageShadow from '../src'
+Vue.component('image-shadow', ImageShadow)
 
 Vue.config.productionTip = false
 

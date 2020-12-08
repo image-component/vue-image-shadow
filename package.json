@@ -1,14 +1,14 @@
 {
-  "name": "vue-component-template",
+  "name": "vue-image-shadow",
   "version": "0.0.1",
-  "main": "./dist/template.umd.min.js",
+  "main": "./dist/index.umd.min.js",
   "files": [
     "dist"
   ],
   "private": false,
   "scripts": {
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name template ./src/index.js",
+    "build": "vue-cli-service build --target lib --name index ./src/index.js",
     "prepublishOnly": "npm run build && np --yolo --no-publish",
     "docs:start": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -18,16 +18,17 @@
   "author": "xrkffgg",
   "repository": {
     "type": "git",
-    "url": "git@github.com/one-template/vue-component-template"
+    "url": "git@github.com/image-tool/vue-image-shadow"
   },
-  "homepage": "https://github.com/one-template/vue-component-template",
+  "homepage": "https://github.com/image-tool/vue-image-shadow",
   "bugs": {
-    "url": "https://github.com/one-template/vue-component-template/issues"
+    "url": "https://github.com/image-tool/vue-image-shadow/issues"
   },
   "keywords": [
     "vue",
     "component",
-    "template"
+    "image",
+    "shadow"
   ],
   "license": "MIT",
   "dependencies": {

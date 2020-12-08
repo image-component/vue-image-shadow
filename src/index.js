@@ -1,2 +1,2 @@
-import ComponentTemplate from "./template.vue";
-export default ComponentTemplate;
+import ImageShadow from "./image-shadow.vue";
+export default ImageShadow;

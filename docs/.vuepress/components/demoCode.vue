@@ -50,7 +50,6 @@ export default {
   .code--demo {
     border-bottom: 1px solid #ebebeb;
     .code-content {
-      display: flex;
       align-items: center;
       box-sizing: border-box;
       padding: 20px 30px;

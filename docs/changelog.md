@@ -1,8 +1,7 @@
-# Changelog
+# 🗓 Changelog
 
 ## 1.0.0
 
-`2020-12-12`
+`2020-12-08`
 
-- fix: this
-- fix: that
+- init
