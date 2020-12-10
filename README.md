@@ -2,11 +2,11 @@
 
 A Vue image component. Simple realization of image shadow.
 
-[![npm](https://img.shields.io/npm/v/vue-image-shadow?style=flat-square&color=orange)](https://www.npmjs.com/package/vue-image-shadow) ![test-ci](https://github.com/image-tool/vue-image-shadow/workflows/test-ci/badge.svg) ![](https://img.shields.io/github/last-commit/image-tool/vue-image-shadow/main?color=%23722ed1&style=flat-square) ![](https://img.shields.io/npm/dt/vue-image-shadow?color=%23eb2f96&style=flat-square) ![](https://img.shields.io/npm/l/vue-image-shadow?style=flat-square&color=red)
+[![npm](https://img.shields.io/npm/v/vue-image-shadow?style=flat-square&color=orange)](https://www.npmjs.com/package/vue-image-shadow) ![test-ci](https://github.com/image-component/vue-image-shadow/workflows/test-ci/badge.svg) ![](https://img.shields.io/github/last-commit/image-component/vue-image-shadow/main?color=%23722ed1&style=flat-square) ![](https://img.shields.io/npm/dt/vue-image-shadow?color=%23eb2f96&style=flat-square) ![](https://img.shields.io/npm/l/vue-image-shadow?style=flat-square&color=red)
 
 ## 📚 Example
 
-Online: https://image-tool.github.io/vue-image-shadow/
+Online: https://image-component.github.io/vue-image-shadow/
 
 ## 📦 Install
 
@@ -44,4 +44,4 @@ yarn start
 
 ## License
 
-[MIT](https://github.com/image-tool/vue-image-shadow/blob/main/LICENSE)
+[MIT](https://github.com/image-component/vue-image-shadow/blob/main/LICENSE)

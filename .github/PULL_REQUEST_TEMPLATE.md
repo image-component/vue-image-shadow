@@ -12,6 +12,7 @@ First of all, thank you for your contribution! 😄
 - [ ] 性能优化 / Performance optimization
 - [ ] 代码风格优化 / Code style optimization
 - [ ] 构建优化 / Build optimization
+- [ ] 网站、文档、Demo 改进 / Website, documentation, demo improvements
 - [ ] 测试相关 / Test related
 - [ ] 其他 / Other
 

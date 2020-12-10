@@ -18,11 +18,11 @@
   "author": "xrkffgg",
   "repository": {
     "type": "git",
-    "url": "git@github.com/image-tool/vue-image-shadow"
+    "url": "git@github.com/image-component/vue-image-shadow"
   },
-  "homepage": "https://github.com/image-tool/vue-image-shadow",
+  "homepage": "https://github.com/image-component/vue-image-shadow",
   "bugs": {
-    "url": "https://github.com/image-tool/vue-image-shadow/issues"
+    "url": "https://github.com/image-component/vue-image-shadow/issues"
   },
   "keywords": [
     "vue",
