@@ -6,7 +6,7 @@ import vue from 'vue-highlight.js/lib/languages/vue';
 
 import 'highlight.js/styles/atom-one-dark-reasonable.css';
 
-import DemoCode from './components/demoCode.vue'
+import DemoCode from './components/demoCode.vue';
 
 export default ({
   Vue,
