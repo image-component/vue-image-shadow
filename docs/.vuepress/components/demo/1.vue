@@ -1,8 +1,8 @@
 <template>
   <div class="demo">
-    <image-shadow :width="280" :src="this.src1"></image-shadow>
-    <image-shadow :width="280" :src="this.src2"></image-shadow>
-    <image-shadow :width="280" :shadow-radius="20" :src="this.src3"></image-shadow>
+    <image-shadow :src="this.src1"></image-shadow>
+    <image-shadow :src="this.src2"></image-shadow>
+    <image-shadow :shadow-radius="20" :src="this.src3"></image-shadow>
   </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
   .demo {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-columns: repeat(auto-fill, 300px);
     grid-gap: 40px;
   }
 </style>
