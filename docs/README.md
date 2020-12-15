@@ -6,11 +6,11 @@ A Vue image component. Simple realization of image shadow.
 
 ## 📚 Example
 
-Online: https://image-component.github.io/vue-image-shadow/
+Online: [https://image-component.github.io/vue-image-shadow/](https://image-component.github.io/vue-image-shadow/)
 
 ## 🌀 Template
 
-https://github.com/one-template/vue-component-template
+[https://github.com/one-template/vue-component-template](https://github.com/one-template/vue-component-template)
 
 ## 📦 Install
 
