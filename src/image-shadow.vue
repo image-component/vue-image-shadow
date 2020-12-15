@@ -6,6 +6,7 @@
     <img
       class="vue-image-shadow-img"
       :src="src"
+      :alt="alt"
       :width="width"
       :style="imgStyle" 
     />
@@ -38,6 +39,9 @@ export default {
     src: {
       type: String,
       required: true
+    },
+    alt: {
+      type: String,
     },
     width: {
       type: Number,
@@ -88,6 +92,7 @@ export default {
 
   img {
     transition: all 0.4s ease;
+    display: block;
   }
 
   &-card {
