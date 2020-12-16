@@ -28,6 +28,7 @@ export default {
   .demo {
     display: grid;
     justify-content: space-around;
+    align-items: center;
     grid-template-columns: repeat(auto-fill, 300px);
     grid-gap: 40px;
   }
