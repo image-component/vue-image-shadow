@@ -19,9 +19,9 @@ Basic display.
     export default {
       data() {
         return {
-          src1: 'https://github.com/image-component/react-image-shadow/blob/main/image/red.png?raw=true',
-          src2: 'https://github.com/image-component/react-image-shadow/blob/main/image/blue.jpg?raw=true',
-          src3: 'https://github.com/image-component/react-image-shadow/blob/main/image/white.jpg?raw=true'
+          src1: 'https://github.com/image-component/gallery/blob/main/girl/5.jpg?raw=true',
+          src2: 'https://github.com/image-component/gallery/blob/main/girl/1.jpg?raw=true',
+          src3: 'https://github.com/image-component/gallery/blob/main/girl/3.jpg?raw=true'
         }
       }
     }
@@ -52,5 +52,17 @@ Use `shadow-hover` to turn on the floating effect.
         <image-shadow :width="280" :shadow-radius="20" :src="this.src3" shadow-hover></image-shadow>
       </div>
     </template>
+
+    <script>
+    export default {
+      data() {
+        return {
+          src1: 'https://github.com/image-component/gallery/blob/main/girl/3.jpg?raw=true',
+          src2: 'https://github.com/image-component/gallery/blob/main/girl/6.jpg?raw=true',
+          src3: 'https://github.com/image-component/gallery/blob/main/girl/8.jpg?raw=true'
+        }
+      }
+    }
+    </script>
   </highlight-code>
 </demo-code>
