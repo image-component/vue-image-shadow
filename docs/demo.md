@@ -57,7 +57,7 @@ Use `shadow-hover` to turn on the floating effect.
     export default {
       data() {
         return {
-          src1: 'https://github.com/image-component/gallery/blob/main/girl/3.jpg?raw=true',
+          src1: 'https://github.com/image-component/gallery/blob/main/girl/4.jpg?raw=true',
           src2: 'https://github.com/image-component/gallery/blob/main/girl/6.jpg?raw=true',
           src3: 'https://github.com/image-component/gallery/blob/main/girl/8.png?raw=true'
         }
